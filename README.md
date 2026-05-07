@@ -1,4 +1,4 @@
-# StreamVault
+# vStream
 
 > Download any video from the web and store it locally — fast, clean, and hassle-free.
 
@@ -45,19 +45,8 @@ brew install yt-dlp ffmpeg
 ## Usage
 
 ```bash
-python streamvault.py <URL>
-```
-
-**Examples:**
-```bash
-# Download a YouTube video
-python streamvault.py https://www.youtube.com/watch?v=example
-
-# Download and save to a specific folder
-python streamvault.py https://vimeo.com/example --output ~/Videos
-
-# Download as MP3 (audio only)
-python streamvault.py https://www.youtube.com/watch?v=example --audio-only
+1. Fill every other line of urls.txt with the desired urls
+2. python start.py
 ```
 
 ## Project Structure
