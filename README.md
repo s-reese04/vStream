@@ -2,7 +2,7 @@
 
 > Download any video from the web and store it locally — fast, clean, and hassle-free.
 
-StreamVault is a command-line tool that lets you download videos from virtually any URL and save them to your local machine. Powered by **yt-dlp** for broad platform support and **ffmpeg** for high-quality media processing and conversion.
+vStream is a command-line tool that lets you download videos from virtually any URL and save them to your local machine. Powered by **yt-dlp** for broad platform support and **ffmpeg** for high-quality media processing and conversion.
 
 ---
 
