@@ -10,8 +10,7 @@ vStream is a command-line tool that lets you download videos from virtually any 
 
 - Download videos from YouTube, Vimeo, Twitter, and [hundreds of other platforms](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
 - Automatic video/audio merging via ffmpeg
-- Local storage with customizable output paths
-- Format selection (MP4, MKV, WebM, MP3, and more)
+- Fetch media from HTML of urls
 - Fast downloads with support for concurrent streams
 
 ---
@@ -45,7 +44,7 @@ brew install yt-dlp ffmpeg
 ## Usage
 
 ```bash
-1. Fill every other line of urls.txt with the desired urls
+1. Fill every line of urls.txt with the desired urls
 2. python start.py
 ```
 
@@ -66,7 +65,8 @@ videostream/
 
 1. **yt-dlp** fetches the video stream(s) from the given URL
 2. If video and audio are separate streams, **ffmpeg** merges them into a single file
-3. The final file is saved to the videos directory
+3. If direct yt-dlp fails, the html of the url is fetched and scraped for video media
+4. The final file is saved to the videos directory
 
 
 ## Disclaimer
